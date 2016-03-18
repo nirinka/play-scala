@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET        /                    controllers.Application.index
+
+#Documents
+GET		/library/documents	controllers.Documents.index
+POST	/library/documents	controllers.Documents.create
