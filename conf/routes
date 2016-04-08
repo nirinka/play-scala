@@ -8,3 +8,5 @@ GET        /                    controllers.Application.index
 #Documents
 GET		/library/documents	controllers.Documents.index
 POST	/library/documents	controllers.Documents.create
+
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

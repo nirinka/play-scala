@@ -1,0 +1,15 @@
+@(content: Html)(implicit lang: Lang)
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" media="screen"
+		href='@routes.Assets.at("stylesheets/bootstrap.css")'>
+	</head>
+	<body>
+		<div class="screenshot">
+			<div class="container">
+			@content
+			</div>
+		</div>
+	</body>
+</html>

@@ -10,6 +10,9 @@ libraryDependencies ++= Seq(
   jdbc,
   cache,
   ws,
+  "io.spray" %% "spray-json" % "1.3.2",
+  "io.spray" %% "spray-httpx" % "1.3.2",
+  "io.spray" %% "spray-can" % "1.3.3",
   "org.scalatestplus.play" %% "scalatestplus-play" % "1.5.0-RC1" % Test
 )
 

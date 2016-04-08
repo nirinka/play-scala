@@ -1,0 +1,8 @@
+@(documents: Seq[Document])(implicit lang: Lang)
+@main {
+	<dl class="details">
+	@for(document <- documents) {
+		<dt>@document.title</dt>
+	}
+	</dl>
+}
